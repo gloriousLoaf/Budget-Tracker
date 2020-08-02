@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "lite-server": "lite-server"
@@ -18,10 +19,13 @@
     "url": "https://github.com/coding-boot-camp/unit18hw/issues"
   },
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "resolutions": {
+    "minimist": "^1.2.5"
+  },
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "lite-server": "^2.5.3",
+    "lite-server": "^2.5.4",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
   }
