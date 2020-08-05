@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "resolutions": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "jpeg-js": ">=0.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
