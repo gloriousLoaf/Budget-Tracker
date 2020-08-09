@@ -18,7 +18,7 @@ This is an easy to use budgeting app for tracking daily expenses when you are on
 <p>&nbsp;</p>
 
 ## Installation
-To run this locally, clone this repo and run ``` npm install ``` from your command line, then open a new terminal window and get MongoDB running with ``` mongod ```. In your first terminal, run ``` npm server ``` from the root folder of the app, then navigate to localhost://3000 in your browser to start testing out the app. For production, use your preferred cloud hosting platform to connect to the database. This app is deployed on Heroku, see it in action here 👉 [Budget Tracker](Heroku link coming by 8/10/2020).
+To run this locally, clone this repo and run ``` npm install ``` from your command line, then open a new terminal window and get MongoDB running with ``` mongod ```. In your first terminal, run ``` npm server ``` from the root folder of the app, then navigate to localhost://3000 in your browser to start testing out the app. For production, use your preferred cloud hosting platform to connect to the database. This app is deployed on Heroku, see it in action here 👉 [Budget Tracker](https://budget-tracker-mongodb.herokuapp.com/).
 <p>&nbsp;</p>
 
 ## Usage
