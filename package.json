@@ -22,12 +22,7 @@
   },
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "resolutions": {
-    "minimist": "^1.2.5",
-    "jpeg-js": ">=0.4.0"
-  },
-  "devDependencies": {
-    "webpack-cli": "^3.3.2",
-    "webpack-pwa-manifest": "^4.0.0"
+    "minimist": "^1.2.5"
   },
   "dependencies": {
     "compression": "^1.7.4",
