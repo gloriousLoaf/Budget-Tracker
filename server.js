@@ -18,8 +18,14 @@ app.use(express.static('public'));
 //   useFindAndModify: false
 // });
 
+// Old mLab connection
+// mongoose.connect('mongodb://user:password123@ds157895.mlab.com:57895/heroku_3z5g0tbt', {
+//   useNewUrlParser: true,
+//   useFindAndModify: false
+// })
+
 // MongoDB connection
-mongoose.connect('mongodb://user:password123@ds157895.mlab.com:57895/heroku_3z5g0tbt', {
+mongoose.connect('mongodb+srv://user:password123@cluster-3z5g0tbt.8kpt2.mongodb.net/heroku_3z5g0tbt?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useFindAndModify: false
 });
